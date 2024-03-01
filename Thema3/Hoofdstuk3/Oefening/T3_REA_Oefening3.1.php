@@ -23,12 +23,6 @@
         <?php
         echo 'Instructies';
         ?>
-
-
-
-
-
-
     </h1>
 </header>
 <?php
