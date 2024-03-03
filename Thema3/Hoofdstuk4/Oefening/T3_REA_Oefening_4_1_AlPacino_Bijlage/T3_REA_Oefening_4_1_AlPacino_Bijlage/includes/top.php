@@ -18,7 +18,6 @@
     </head>
 
     <body>
-
         <header>
             <h1><a href='../index.php'>Al Pacino</a></h1>
             <h3>...in zijn rollen als gangster</h3>
