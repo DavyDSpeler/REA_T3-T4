@@ -34,6 +34,12 @@ $chapters = array(
             'Oefening 4.3' => 'T3_REA_Oefening4.3.php',
         ),
     ),
+    5 => array(
+        'name' => 'Hoofdstuk 5',
+        'exercises' => array(
+            'Oefening 5.1' => 'T3_REA_Oefening5.1.php',
+        ),
+    ),
 );
 ?>
 <nav>
