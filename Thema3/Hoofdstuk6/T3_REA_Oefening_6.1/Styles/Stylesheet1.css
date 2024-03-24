@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+header
+{
+    background-color: rgb(240, 248, 255);
+    text-align: center;
+    height: 15%;
+    padding-top: 15px;
+    position: relative;
+}
+main
+{
+    height: 80%;
+    box-sizing: border-box;
+}
+
+main nav
+{
+    background-color: beige;
+    width: 25%;
+    float: left;
+    height: 85%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+main section
+{
+    height: 85%;
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+
+/* Your existing CSS styles */
+
+.footer-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-panel img {
+    width: 100px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.footer-panel span {
+    font-size: 14px; /* Adjust the font size */
+}
+
+/* Additional CSS styles */
