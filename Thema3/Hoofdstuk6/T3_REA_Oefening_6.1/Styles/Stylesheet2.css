@@ -1,0 +1,29 @@
+footer
+{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-info
+{
+    margin-left: 10px;
+}
+.name
+{
+    font-weight: bold;
+}
+.date
+{
+    font-style: italic;
+}
