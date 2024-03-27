@@ -1,10 +1,9 @@
 <?php
 /**
  * User: D.Dessé
- * Date: 6-3-2024
+ * Date: 24-3-2024
  * File: navigation.php
  */
-
 $chapters = array(
     1 => array(
         'name' => 'Hoofdstuk 1',
@@ -38,6 +37,18 @@ $chapters = array(
         'name' => 'Hoofdstuk 5',
         'exercises' => array(
             'Oefening 5.1' => 'T3_REA_Oefening5.1.php',
+        ),
+    ),
+    5 => array(
+        'name' => 'Hoofdstuk 5',
+        'exercises' => array(
+            'Oefening 5.1' => 'T3_REA_Oefening5.1.php',
+        ),
+    ),
+    6 => array(
+        'name' => 'Hoofdstuk 6',
+        'exercises' => array(
+            'Oefening 6.1' => 'T3_REA_Oefening6.1.php',
         ),
     ),
 );

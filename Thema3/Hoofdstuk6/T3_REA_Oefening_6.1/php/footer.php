@@ -1,29 +1,27 @@
+<?php
+/**
+ * User: D.Dessé
+ * Date: 27-3-2024
+ * File: footer.php
+ */
+?>
 <footer>
-    <div>
-        <?php
-        // Check if the country code cookie is set
-        if(isset($_COOKIE["userCountryCode"]))
-        {
-            $countryCode = $_COOKIE["userCountryCode"];
-            $imageSrc = "flags/"+ $countryCode +".png";
-        } else {}
-
-        // Display the image
-        echo "<img src='$imageSrc' alt='Footer Image'>";
-        ?>
+    <?php
+    if (isset($_COOKIE['username']) && isset($_COOKIE['country']))
+    {
+        $username = $_COOKIE['username'];
+        $country = $_COOKIE['country'];
+        $time = date('d/m/Y');
+        echo '    
+    <div class="footer-content">
+        <img src="flags/' . $country. '.png" alt="Footer Image">
+        <div class="text-info">
+            <span class="name">©'. $username .'</span>||
+            <span class="klas">IO1S1B</span>||
+            <span class="time">' . $time . '</span> <!-- Display the time -->
+        </div>
     </div>
-    <div>
-        <?php
-        // Display the username
-        $username = $_COOKIE["userUsernameCookie"];
-        echo "Username: $username";
-        ?>
-    </div>
-    <div>
-        <?php
-        // Get current date
-        $currentDate = date("Y-m-d");
-        echo "Date: $currentDate";
-        ?>
-    </div>
+    ';
+    }
+    ?>
 </footer>

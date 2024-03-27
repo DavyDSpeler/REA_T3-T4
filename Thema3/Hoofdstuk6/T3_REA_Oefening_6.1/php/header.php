@@ -1,7 +1,7 @@
 <?php
 /**
  * User: D.Dessé
- * Date: 6-3-2024
+ * Date: 27-3-2024
  * File: header.php
  */
 ?>
@@ -13,7 +13,6 @@
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Styles/Stylesheet1.css" rel="stylesheet">
 </head>
 <body>
 <header>
