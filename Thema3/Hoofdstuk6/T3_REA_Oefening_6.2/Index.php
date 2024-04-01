@@ -75,20 +75,21 @@ function resetSpel()
     <form id="gameFrm" method="get" action="#" style="text-align: center; background-color: lightblue; padding: 10px; border-radius: 10px;">
         <div style="display: inline-block; margin-right: 20px;">
             <img src="Media/SteenPapierSchaar(STEEN).png" style="width: 100px;"><br>
-            <input type="radio" name="keuze" value="steen">
+            <input type="radio" name="keuze" value="steen" onchange="document.getElementById('gameFrm').submit();">
         </div>
         <div style="display: inline-block; margin-right: 20px;">
             <img src="Media/SteenPapierSchaar(PAPIER).png" style="width: 100px;"><br>
-            <input type="radio" name="keuze" value="papier">
+            <input type="radio" name="keuze" value="papier" onchange="document.getElementById('gameFrm').submit();">
         </div>
         <div style="display: inline-block;">
             <img src="Media/SteenPapierSchaar(SCHAAR).png" style="width: 100px;"><br>
-            <input type="radio" name="keuze" value="schaar">
+            <input type="radio" name="keuze" value="schaar" onchange="document.getElementById('gameFrm').submit();">
         </div>
         <br>
-        <button type="submit">Submit</button>
         <?php if ($winnaarGedeclareerd) {echo "<p>Het spel is afgelopen!</p>";} ?>
     </form>
+
+
 </section>
 <?php
 include 'php/footer.php';
