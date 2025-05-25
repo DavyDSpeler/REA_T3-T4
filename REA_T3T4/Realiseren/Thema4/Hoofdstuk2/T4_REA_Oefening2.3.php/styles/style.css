@@ -1,0 +1,87 @@
+/* Algemene instellingen */
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header met gecentreerde tekst */
+header
+{
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;       /* Verticaal centreren */
+    height: 80px;
+}
+
+
+main#wrapper
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav
+{
+    width: 220px;
+    padding: 20px;
+    background-color: lightyellow;
+    border-right: 1px solid #ccc;
+    height: calc(100vh - 80px); /* Volledige hoogte minus header */
+    box-sizing: border-box;
+}
+
+nav h2, nav h3
+{
+    margin-top: 0;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li
+{
+    margin: 10px 0;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #005f99;
+}
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+}
+
+
+section {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: white;
+    box-sizing: border-box;
+    min-height: calc(100vh - 80px);
+}
+
+h1, h2, h3
+{
+    margin: 0 0 10px 0;
+}
+
+p
+{
+    font-size: 1.1em;
+    line-height: 1.6;
+}
